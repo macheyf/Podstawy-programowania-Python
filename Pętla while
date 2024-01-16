@@ -1,0 +1,8 @@
+#Napisz program wczytujący liczby podawane przez użytkownika z klawiatury i kończący się w momencie, kiedy suma wszystkich podanych liczb przekroczy 100. Wykorzystaj w programie pętlę while.
+
+a = 0
+while a <= 100:
+  b = float(input("Podaj liczbę: "))
+  a += b
+else :
+  print("Koniec pętli! Suma podanych liczb to:",a)
