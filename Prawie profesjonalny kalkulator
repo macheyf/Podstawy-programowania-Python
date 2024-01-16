@@ -1,0 +1,31 @@
+#Napisz program który będzie wykonywał 4 podstawowe operacje arytmetyczne: +,-,*,/
+#Po wprowadzeniu dwóch liczb, użytkownik ma wybrać lub wprowadzić rodzaj operacji jaka ma zostać wykonana.
+
+a = float(input("Podaj pierwszą licbę: "))
+b = float(input("Podaj drugą liczbę: "))
+
+c = str(input("Jakie działanie chcesz wykonać? By wybrać dodawanie wpisz +, odejmowanie -, mnożenie *, dzielenie /: "))
+
+if c == "+" :
+
+  suma = a + b
+  print("Suma obu liczb to:",suma)
+
+elif c == "-" :
+
+  różnica = a - b
+  print("Różnica obu liczb to:",różnica)
+
+elif c == "*" :
+
+  iloczyn = a * b
+  print("Iloczyn obu liczb to:", iloczyn)
+
+elif c == "/" :
+
+  iloraz = a / b
+  print("Iloraz obu liczb to:", iloraz)
+
+else:
+
+  print("Błąd wprowadzenia. Uruchom program ponownie.")
