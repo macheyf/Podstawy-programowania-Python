@@ -1,0 +1,11 @@
+#Napisz program który wczyta dwie liczby wprowadzone przez użytkownika. Następnie wykonaj operacje: dodawania, odejmowania, mnożenia oraz dzielenia podanych liczb. Po wykonaniu każdej operacji wypisz jej wynik.
+a = float(input("Podaj pierwszą licbę: "))
+b = float(input("Podaj drugą liczbę: "))
+suma = a + b
+print("Suma obu liczb to:",suma)
+różnica = a - b
+print("Różnica obu liczb to:",różnica)
+iloczyn = a * b
+print("Iloczyn obu liczb to:", iloczyn)
+iloraz = a / b
+print("Iloraz obu liczb to:", iloraz)
