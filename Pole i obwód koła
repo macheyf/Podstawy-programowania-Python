@@ -1,0 +1,9 @@
+#Napisz program, który wczyta długość promienia podaną przez użytkownika. Następnie obliczy i wypisze pole oraz obwód koła.
+
+import math 
+
+r = float(input("Podaj promień koła: "))
+P = math.pi * r ** 2
+print("Pole tego koła to:",P)
+O = 2 * math.pi * r 
+print("Obwód tego koła to:",O)
