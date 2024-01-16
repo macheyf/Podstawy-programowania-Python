@@ -1,0 +1,9 @@
+#Napisz program wypisujący 20 kolejnych liczb parzystych, począwszy od liczby podanej przez użytkownika. Użyj do tego pętli for.
+
+b = int(input("Podaj liczbę całkowitą:"))
+if b % 2 == 1:
+  b += 1
+a = 0
+for a in range(0,40,2):
+  print(b)
+  b += 2
