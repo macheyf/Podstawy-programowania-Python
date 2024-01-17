@@ -1,0 +1,14 @@
+#Napisz program, który wypełni listę o rozmiarze 20, liczbami podanymi przez użytkownika. Następnie program powinien poprosić użytkownika o podanie liczby która będzie szukana. W pętli for sprawdź i wypisz ile razy podana liczba występuje w tablicy.
+
+liczby = []
+
+for i in range(20):
+
+    print("Wprowadź liczbę:")
+
+    liczby.append(int(input()))
+    
+a = int(input("Wprowadź licbę, którą chcesz znaleźć w liście:"))
+for i in range(len(liczby)):
+    if a == liczby[i]:
+        print("Liczba",a,"Jest w liście na pozycji",i)
