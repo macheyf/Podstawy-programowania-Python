@@ -1,0 +1,26 @@
+#Napisz program zawierający funkcję:
+
+#ktoraCwiartka(x, y)
+
+#która dla punktu o współrzędnych (x, y) zwróci wartość 1..4, identyfikującą jedną z ćwiartek układu współrzędnych wewnątrz której leży ten punkt. W przypadku, gdy punkt leży na którejkolwiek osi współrzędnych funkcja powinna zwrócić 0.  
+
+#Program prosi użytkownika o podanie współrzędnych, wywołuje funkcję i wypisuje na ekranie numer zwrócony przez funkcję, czyli numer ćwiartki układu.
+
+def ktoraCwiartka(x,y):
+    if x > 0 and y > 0:
+        print("Punk jest w ćwiartce 1.")
+    elif x < 0 and y > 0:
+        print("Punk jest w ćwiartce 2.")
+    elif x < 0 and y < 0:
+        print("Punk jest w ćwiartce 3.")
+    elif x > 0 and y < 0:
+        print("Punk jest w ćwiartce 4.")
+    elif x == 0 or y == 0:
+        print("Punk jest w ćwiartce 0.")
+    else:
+        print("Podane złe dane.")
+
+x = float(input("Podaj x:"))
+y = float(input("Podaj y:"))
+
+ktoraCwiartka(x,y)
